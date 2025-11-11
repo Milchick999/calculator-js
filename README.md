@@ -35,24 +35,19 @@ Follow the steps:
 
 
 
-
 * PROJECT STRUCTURE
 
 Calculator project has following files & folders structure:
 
-
->src/                                 (Source files)
-      > assets/                      (Static resources)
-      > js/                         (JavaScript modules)
-                 >`math.js`          (Math logic)
-                 >`theme.js`         (Theme & DOM logic)
-      >styles/                      (Style files)
-                 >`main,css`         (Core styles)
-        >`index.html`                 (Main entry point)
-        >`index.js`                   (Main controller)
-        
->`.eslintrc.js`                       (ESLint configuration) 
->`package.json`                       (Dependencies, scripts)
->`webpack.config.js`                  (Build configuration)
-
-
+├── src/                          # Source files
+│   ├── assets/                   # Static resources (Images, icons)
+│   ├── js/                       # JavaScript modules
+│   │   ├── math.js               # Math logic
+│   │   └── theme.js              # Theme & DOM logic
+│   ├── styles/                   # Style files
+│   │   └── main.css              # Core styles
+│   ├── index.html                # Main entry point (HTML)
+│   └── index.js                  # Main controller
+├── .eslintrc.js                  # ESLint configuration
+├── package.json                  # Dependencies, scripts
+└── webpack.config.js             # Build configuration
